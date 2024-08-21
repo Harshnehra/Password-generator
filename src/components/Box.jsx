@@ -41,6 +41,7 @@ function Box() {
 
     return (
       <>  
+
       <div className={`${Styles["input"]}`}>
         <input type="text" value={password} ref={passwordRef} readOnly />
         <button onClick={copypassword} className={`${Styles["btn"]}`}> Copy </button>
@@ -62,6 +63,7 @@ function Box() {
       </div>
 
       </div>
+      
       </>
     )
   }

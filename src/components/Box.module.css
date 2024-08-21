@@ -1,6 +1,12 @@
 .btn{
-    background-color: #008CBA;
+    background-color: #20b0e0;
     border-radius: 12px;
+}
+
+.btn:hover{
+    background-color: rgb(96, 140, 142);
+    color: white;
+    cursor: pointer;
 }
 
 .input{
@@ -14,6 +20,7 @@
 
 .check-box-1{
      padding-top: 10px;
+     
 }
 
 .check-box-2{
